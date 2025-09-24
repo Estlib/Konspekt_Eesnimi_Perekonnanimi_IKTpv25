@@ -127,6 +127,23 @@
             {
                 Console.WriteLine("Tulemus on 0, või üritasid teha tehet, mida kalkulaator ei tunne");
             }
+
+            //4 parool, if ja string andmetüüp
+            Console.WriteLine("Programmi edasiseks tööks sisesta palun parool:");
+            string password = Console.ReadLine();
+
+            if (password == "simsalabim")
+            {
+                Console.WriteLine("Parool on õige, aarete laegas avaneb");
+            }
+            else if (password == "saatana" || password == "1234")
+            {
+                Console.WriteLine("Parool on sobimatu, palun mingi muu");
+            }
+            else
+            {
+                Console.WriteLine("Parool on vale, proovi uuesti");
+            }
         }
     }
 }
