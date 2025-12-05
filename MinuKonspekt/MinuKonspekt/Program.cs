@@ -318,7 +318,7 @@ namespace MinuKonspekt
             int aa = 9001;
             // -- Loendi sisemised meetodid:
             arvuNimekiri.Add(99); //Loendi meetod "Add()" lisab enne punkti olevale järjendile uue elemendi, element mida lisatakse on Add meetodi sulgude
-                                  //vahel. Elementi sasab lisada otse (antud juhul täisarv "99")
+                                  //vahel. Elementi saab lisada otse (antud juhul täisarv "99")
             arvuNimekiri.Add(aa); //või muutujana.
             int loendiPikkus = arvuNimekiri3.Count(); //Loendi meetod "Count()" loeb kokku mitu elementi järjendis on, meetod tagastab täisarvu mis vastab
                                                       //elementide kogusele.
